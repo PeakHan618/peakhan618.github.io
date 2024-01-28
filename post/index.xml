@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Posts on My New Hugo Site</title>
+        <title>Posts on What&#39;s Old</title>
         <link>/post/</link>
-        <description>Recent content in Posts on My New Hugo Site</description>
+        <description>Recent content in Posts on What&#39;s Old</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Sun, 28 Jan 2024 09:18:33 +0800</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" /><item>
@@ -12,7 +12,8 @@
         <pubDate>Sun, 28 Jan 2024 09:18:33 +0800</pubDate>
         
         <guid>/post/maths-test/</guid>
-        <description>&lt;blockquote&gt;
+        <description>&lt;h2 id=&#34;test&#34;&gt;test&lt;/h2&gt;
+&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Proof&lt;/strong&gt;. For each positive integer $n$ and each $x\in[0,1]$, let $f_n(x)=nx\mathrm{e}^{-nx}$. Then, for $x&amp;gt;0$ we have e$^{-x}&amp;lt;1$, so $n\mathrm{e} ^{- nx}= n( \mathrm{e} ^{- x}) ^n\to 0$ as $n\to \infty.$ It follows that $f_n( x) \to 0$ as $n\to \infty$.Also, when $x= 0$ we have $f_n( x) =  0$ for every $n$ so again $f_n( x) \to 0$ as $n\to \infty.$ Therefore, $f_n(x)\to0$ pointwise.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;

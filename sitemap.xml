@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/post/maths-test/</loc>
+    <loc>/</loc>
     <lastmod>2024-01-28T09:18:33+08:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>/post/maths-test/</loc>
     <lastmod>2024-01-28T09:18:33+08:00</lastmod>
   </url><url>
     <loc>/post/</loc>
@@ -14,8 +14,23 @@
     <loc>/post/hello/</loc>
     <lastmod>2024-01-28T01:33:19+08:00</lastmod>
   </url><url>
+    <loc>/page/archives/</loc>
+    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/page/</loc>
+    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/page/about/</loc>
+    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/categories/</loc>
   </url><url>
+    <loc>/page/links/</loc>
+  </url><url>
+    <loc>/page/search/</loc>
+  </url><url>
     <loc>/tags/</loc>
+  </url><url>
+    <loc>/categories/test/</loc>
   </url>
 </urlset>
