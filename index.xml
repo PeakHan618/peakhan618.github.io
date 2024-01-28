@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>My New Hugo Site</title>
+        <link>/</link>
+        <description>Recent content on My New Hugo Site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 28 Jan 2024 09:18:33 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Maths Test</title>
+        <link>/post/maths-test/</link>
+        <pubDate>Sun, 28 Jan 2024 09:18:33 +0800</pubDate>
+        
+        <guid>/post/maths-test/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Proof&lt;/strong&gt;. For each positive integer $n$ and each $x\in[0,1]$, let $f_n(x)=nx\mathrm{e}^{-nx}$. Then, for $x&amp;gt;0$ we have e$^{-x}&amp;lt;1$, so $n\mathrm{e} ^{- nx}= n( \mathrm{e} ^{- x}) ^n\to 0$ as $n\to \infty.$ It follows that $f_n( x) \to 0$ as $n\to \infty$.Also, when $x= 0$ we have $f_n( x) =  0$ for every $n$ so again $f_n( x) \to 0$ as $n\to \infty.$ Therefore, $f_n(x)\to0$ pointwise.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;However, the convergence is not uniform. To see this, observe that $f_n(n^{-1})=\mathrm{e}^{-1}$ for every $n$. Thus, for every $n$ there exists $x$ such that $|f_n(x)-0|\geqslant\mathrm{e}^{-1}.$   口&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;定理&lt;/strong&gt;。存在一列连续函数 $f_n:[0,1]\to[0,1]$, 它按点收敛但不一致收敛。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;证明&lt;/strong&gt;。对于每个正整数 $n$ 和每个 $x\in[0,1]$, 令 $f_n(x)=nx\mathrm{e}^{-nx}$。那么，对于 $x&amp;gt;0$，我们有 $\mathrm{e}^{-x}&amp;lt;1$，所以 $n\mathrm{e}^{-nx}=n(\mathrm{e}^{-x})^n\to 0$ 当 $n\to \infty$。因此，当 $n\to \infty$ 时，$f_n(x)\to 0$。同样，当 $x=0$ 时，对于每个 $n$，我们有 $f_n(x)=0$，所以同样地 $f_n(x)\to 0$ 当 $n\to \infty$。因此，$f_n(x)\to0$ 是按点收敛的。&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>Hello</title>
+        <link>/post/hello/</link>
+        <pubDate>Sun, 28 Jan 2024 01:33:19 +0800</pubDate>
+        
+        <guid>/post/hello/</guid>
+        <description>&lt;h2 id=&#34;hello-hugo&#34;&gt;Hello Hugo&lt;/h2&gt;
+&lt;p&gt;第一次尝试自己搭建博客，泰裤辣！&lt;/p&gt;
+&lt;h2 id=&#34;一些测试&#34;&gt;一些测试&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;数学公式&lt;/li&gt;
+&lt;li&gt;代码&lt;/li&gt;
+&lt;li&gt;链接&lt;/li&gt;
+&lt;li&gt;图表&lt;/li&gt;
+&lt;li&gt;参考文献&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;数学公式&#34;&gt;数学公式&lt;/h3&gt;
+&lt;p&gt;数学公式是最重要的测试&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一个简单的测试：
+$\LaTeX$&lt;/li&gt;
+&lt;li&gt;链接到测试网站的另一个页面
+&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post/maths-test/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Maths Test&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;程序代码&#34;&gt;程序代码&lt;/h3&gt;
+&lt;p&gt;目前尚未搞清楚如何添加行号&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; math
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(Hello, world&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;!&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(math&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;pi)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;lang&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;meta&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;charset&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;&amp;gt;Example HTML5 Document&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;Test&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;试一试外部网络&#34;&gt;试一试外部网络&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;本网页主题的官方说明：
+&lt;a class=&#34;link&#34; href=&#34;https://stack.jimmycai.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;stack tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
