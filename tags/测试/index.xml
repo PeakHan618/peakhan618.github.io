@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>测试 on Linguage</title>
+    <link>https://peakhan618.github.io/tags/%E6%B5%8B%E8%AF%95/</link>
+    <description>Recent content in 测试 on Linguage</description>
+    <generator>Hugo 0.125.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 18 Apr 2024 20:27:11 +0800</lastBuildDate>
+    <atom:link href="https://peakhan618.github.io/tags/%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>基本功能：基于Markdown</title>
+      <link>https://peakhan618.github.io/tests/tests4blog/test1_markdown/</link>
+      <pubDate>Thu, 18 Apr 2024 20:27:11 +0800</pubDate>
+      <guid>https://peakhan618.github.io/tests/tests4blog/test1_markdown/</guid>
+      <description>网页测试 放啊嗨森几精工哦ioa&#xA;很差灰尘岁</description>
+    </item>
+    <item>
+      <title>基本功能：链接</title>
+      <link>https://peakhan618.github.io/tests/tests4blog/test3_link/</link>
+      <pubDate>Thu, 18 Apr 2024 20:21:25 +0800</pubDate>
+      <guid>https://peakhan618.github.io/tests/tests4blog/test3_link/</guid>
+      <description>中文测试 叫哦赛陈&#xA;blogtest.</description>
+    </item>
+  </channel>
+</rss>
