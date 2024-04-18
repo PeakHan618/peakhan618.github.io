@@ -135,14 +135,13 @@ blogtest.
 </div></div>
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		对数学公式进行一些测试。
+		首先，对MathJax的支持，在原模板的基础上需要进行一些修改，参考网站中的命令。
+&lt;script&gt; MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]] } }; &lt;/script&gt; &lt;script id=&#34;MathJax-script&#34; async src=&#34;https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js&#34;&gt; &lt;/script&gt; 对数学公式进行一些测试。
 来源：
 Markdown数学公式指导手册 MathJax basic tutorial and quick reference 行内公式 质能方程：$E=mc^2$。欧拉方程：$e^{i\pi}+1=0$。
 块级公式 麦克斯韦方程组：
 $$ \begin{aligned} \nabla \cdot \vec{E} &amp;= \frac{\rho}{\varepsilon_0} \\ \nabla \cdot \vec{B} &amp;= 0 \\ \nabla \times \vec{E} &amp;= -\frac{\partial \vec{B}}{\partial t} \\ \nabla \times \vec{B} &amp;= \mu_0 \left(\vec{J} + \varepsilon_0 \frac{\partial \vec{E}}{\partial t}\right) \end{aligned} $$
 $$\left. \frac{{\rm d}u}{{\rm d}x} \right| _{x=0}$$
-公式编号 公式编号：
-$$ \begin{aligned} \text{公式1} &amp; = \int_{a}^{b} f(x) dx \label{eq1} \\ \text{公式2} &amp; = \int_{a}^{b} g(x) dx \end{aligned} $$
 	</div>
 </article>
 </main>
