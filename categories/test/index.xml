@@ -20,7 +20,7 @@
       <link>https://peakhan618.github.io/tests/tests4blog/test2_math_test/</link>
       <pubDate>Thu, 18 Apr 2024 20:17:28 +0800</pubDate>
       <guid>https://peakhan618.github.io/tests/tests4blog/test2_math_test/</guid>
-      <description>首先，对MathJax的支持，在原模板的基础上需要进行一些修改，参考网站中的命令。&#xA;&amp;lt;script&amp;gt; MathJax = { tex: { inlineMath: [[&amp;#39;$&amp;#39;, &amp;#39;$&amp;#39;], [&amp;#39;\\(&amp;#39;, &amp;#39;\\)&amp;#39;]] } }; &amp;lt;/script&amp;gt; &amp;lt;script id=&amp;#34;MathJax-script&amp;#34; async src=&amp;#34;https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js&amp;#34;&amp;gt; &amp;lt;/script&amp;gt; 对数学公式进行一些测试。&#xA;来源：&#xA;Markdown数学公式指导手册 MathJax basic tutorial and quick reference 行内公式 质能方程：$E=mc^2$。欧拉方程：$e^{i\pi}+1=0$。&#xA;块级公式 麦克斯韦方程组：&#xA;$$ \begin{aligned} \nabla \cdot \vec{E} &amp;amp;= \frac{\rho}{\varepsilon_0} \\ \nabla \cdot \vec{B} &amp;amp;= 0 \\ \nabla \times \vec{E} &amp;amp;= -\frac{\partial \vec{B}}{\partial t} \\ \nabla \times \vec{B} &amp;amp;= \mu_0 \left(\vec{J} + \varepsilon_0 \frac{\partial \vec{E}}{\partial t}\right) \end{aligned} $$&#xA;$$\left. \frac{{\rm d}u}{{\rm d}x} \right| _{x=0}$$</description>
+      <description>&lt;p&gt;本文旨在测试博客模板（mainroad）对数学公式输入的支持效果。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
