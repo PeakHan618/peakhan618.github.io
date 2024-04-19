@@ -10,41 +10,48 @@
     <loc>https://peakhan618.github.io/books/</loc>
     <lastmod>2024-04-18T20:50:12+08:00</lastmod>
   </url><url>
-    <loc>https://peakhan618.github.io/tests/</loc>
-    <lastmod>2024-04-18T20:27:11+08:00</lastmod>
+    <loc>https://peakhan618.github.io/parks/</loc>
   </url><url>
-    <loc>https://peakhan618.github.io/books/modernfortran/</loc>
-    <lastmod>2024-04-18T20:50:12+08:00</lastmod>
-  </url><url>
-    <loc>https://peakhan618.github.io/books/modernfortran/ch01/</loc>
-    <lastmod>2024-04-18T20:50:12+08:00</lastmod>
-  </url><url>
-    <loc>https://peakhan618.github.io/categories/</loc>
-    <lastmod>2024-04-18T20:27:11+08:00</lastmod>
-  </url><url>
-    <loc>https://peakhan618.github.io/tags/</loc>
-    <lastmod>2024-04-18T20:27:11+08:00</lastmod>
-  </url><url>
-    <loc>https://peakhan618.github.io/categories/test/</loc>
-    <lastmod>2024-04-18T20:27:11+08:00</lastmod>
+    <loc>https://peakhan618.github.io/labs/</loc>
   </url><url>
     <loc>https://peakhan618.github.io/tests/tests4blog/</loc>
     <lastmod>2024-04-18T20:27:11+08:00</lastmod>
   </url><url>
-    <loc>https://peakhan618.github.io/tests/tests4blog/test1_markdown/</loc>
-    <lastmod>2024-04-18T20:27:11+08:00</lastmod>
+    <loc>https://peakhan618.github.io/tests/tutorials/customization/</loc>
+    <lastmod>2022-01-24T14:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peakhan618.github.io/tags/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2024-04-18T20:27:11+08:00</lastmod>
+    <loc>https://peakhan618.github.io/tests/tutorials/faq/</loc>
+    <lastmod>2022-01-24T14:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peakhan618.github.io/tests/tests4blog/test3_link/</loc>
-    <lastmod>2024-04-18T20:21:25+08:00</lastmod>
+    <loc>https://peakhan618.github.io/tests/tutorials/getting-started/</loc>
+    <lastmod>2022-01-24T14:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peakhan618.github.io/tests/tests4blog/test2_math_test/</loc>
-    <lastmod>2024-04-18T20:17:28+08:00</lastmod>
+    <loc>https://peakhan618.github.io/tags/installation/</loc>
+    <lastmod>2022-01-24T14:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peakhan618.github.io/%E5%85%B3%E4%BA%8E/</loc>
-    <lastmod>2022-01-25T14:00:00+00:00</lastmod>
+    <loc>https://peakhan618.github.io/tags/</loc>
+    <lastmod>2022-01-24T14:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peakhan618.github.io/tests/tutorials/</loc>
+    <lastmod>2022-01-24T14:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peakhan618.github.io/tags/basic-elements/</loc>
+    <lastmod>2018-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peakhan618.github.io/tests/tutorials/basic-elements/</loc>
+    <lastmod>2018-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peakhan618.github.io/categories/</loc>
+    <lastmod>2018-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peakhan618.github.io/tags/css/</loc>
+    <lastmod>2018-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peakhan618.github.io/categories/development/</loc>
+    <lastmod>2018-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peakhan618.github.io/tags/html/</loc>
+    <lastmod>2018-04-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peakhan618.github.io/tests/tutorials/hugo-template-primer/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
@@ -52,7 +59,7 @@
     <loc>https://peakhan618.github.io/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peakhan618.github.io/categories/development/</loc>
+    <loc>https://peakhan618.github.io/tests/tutorials/getting-started-with-hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peakhan618.github.io/tags/go/</loc>
@@ -64,13 +71,13 @@
     <loc>https://peakhan618.github.io/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://peakhan618.github.io/tags/hugo/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://peakhan618.github.io/tags/templates/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peakhan618.github.io/tags/themes/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peakhan618.github.io/tests/tutorials/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peakhan618.github.io/docs/</loc>

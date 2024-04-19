@@ -6,42 +6,35 @@
     <description>Recent content in Home on Linguage</description>
     <generator>Hugo 0.125.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 18 Apr 2024 20:50:12 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 24 Jan 2022 14:00:00 +0000</lastBuildDate>
     <atom:link href="https://peakhan618.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>第一章：测试</title>
-      <link>https://peakhan618.github.io/books/modernfortran/ch01/</link>
-      <pubDate>Thu, 18 Apr 2024 20:50:12 +0800</pubDate>
-      <guid>https://peakhan618.github.io/books/modernfortran/ch01/</guid>
-      <description>第一章：测试 1.1 标题 what the fuck $\pi$&#xA;1.2 正文 1.3 参考文献 1.4 致谢 1.5 附录 </description>
+      <title>Customization</title>
+      <link>https://peakhan618.github.io/tests/tutorials/customization/</link>
+      <pubDate>Mon, 24 Jan 2022 14:00:00 +0000</pubDate>
+      <guid>https://peakhan618.github.io/tests/tutorials/customization/</guid>
+      <description>&lt;p&gt;Customization page describes common Mainroad configuration parameters which can be specified via configuration file or&#xA;via Front Matter section. That includes logo section tuning, adding a sidebar with widgets, adjusting highlight color,&#xA;and more.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>基本功能：基于Markdown</title>
-      <link>https://peakhan618.github.io/tests/tests4blog/test1_markdown/</link>
-      <pubDate>Thu, 18 Apr 2024 20:27:11 +0800</pubDate>
-      <guid>https://peakhan618.github.io/tests/tests4blog/test1_markdown/</guid>
-      <description>网页测试 放啊嗨森几精工哦ioa&#xA;很差灰尘岁</description>
+      <title>Frequently asked questions (FAQ)</title>
+      <link>https://peakhan618.github.io/tests/tutorials/faq/</link>
+      <pubDate>Mon, 24 Jan 2022 14:00:00 +0000</pubDate>
+      <guid>https://peakhan618.github.io/tests/tutorials/faq/</guid>
+      <description>&lt;p&gt;Browse this FAQ page to find answers to frequently asked questions that have not been covered elsewhere&#xA;in the documentation.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>基本功能：链接</title>
-      <link>https://peakhan618.github.io/tests/tests4blog/test3_link/</link>
-      <pubDate>Thu, 18 Apr 2024 20:21:25 +0800</pubDate>
-      <guid>https://peakhan618.github.io/tests/tests4blog/test3_link/</guid>
-      <description>中文测试 叫哦赛陈&#xA;blogtest.</description>
+      <title>Getting started</title>
+      <link>https://peakhan618.github.io/tests/tutorials/getting-started/</link>
+      <pubDate>Mon, 24 Jan 2022 14:00:00 +0000</pubDate>
+      <guid>https://peakhan618.github.io/tests/tutorials/getting-started/</guid>
+      <description>&lt;p&gt;Welcome to the Mainroad theme documentation. This quick start guide covers Mainroad theme installation and minimal&#xA;configuration and is intended for intermediate to advanced users. To understand this guide, you need to be familiar&#xA;with the &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; static site generator.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>基本功能：数学公式</title>
-      <link>https://peakhan618.github.io/tests/tests4blog/test2_math_test/</link>
-      <pubDate>Thu, 18 Apr 2024 20:17:28 +0800</pubDate>
-      <guid>https://peakhan618.github.io/tests/tests4blog/test2_math_test/</guid>
-      <description>&lt;p&gt;本文旨在测试博客模板（mainroad）对数学公式输入的支持效果。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>关于</title>
-      <link>https://peakhan618.github.io/%E5%85%B3%E4%BA%8E/</link>
-      <pubDate>Tue, 25 Jan 2022 14:00:00 +0000</pubDate>
-      <guid>https://peakhan618.github.io/%E5%85%B3%E4%BA%8E/</guid>
-      <description>Our website builds with Hugo static site generator and Mainroad theme. This demo allows you to see what Mainroad based website looks like before deciding to go with it. Just keep in mind that the current demo shows the basics, a small part of what the combination of Hugo and Mainroad can do.&#xA;关于作者 Mainroad is a responsive, simple, clean and content-focused Hugo theme based on the MH Magazine lite WordPress theme</description>
+      <title>Basic HTML Elements</title>
+      <link>https://peakhan618.github.io/tests/tutorials/basic-elements/</link>
+      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://peakhan618.github.io/tests/tutorials/basic-elements/</guid>
+      <description>&lt;p&gt;The main purpose of this article is to make sure that all basic HTML Elements are decorated with CSS so as to not miss any possible elements when creating new themes for Hugo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>(Hu)go Template Primer</title>
@@ -49,6 +42,13 @@
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       <guid>https://peakhan618.github.io/tests/tutorials/hugo-template-primer/</guid>
       <description>&lt;p&gt;Hugo uses the excellent &lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt; &lt;a href=&#34;https://golang.org/pkg/html/template/&#34;&gt;html/template&lt;/a&gt; library for&#xA;its template engine. It is an extremely lightweight engine that provides a very&#xA;small amount of logic. In our experience that it is just the right amount of&#xA;logic to be able to create a good static website. If you have used other&#xA;template systems from different languages or frameworks you will find a lot of&#xA;similarities in Go templates.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>https://peakhan618.github.io/tests/tutorials/getting-started-with-hugo/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>https://peakhan618.github.io/tests/tutorials/getting-started-with-hugo/</guid>
+      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.&#xA;Save it somewhere specific as we will be using it in the next step.&#xA;More complete instructions are available at Install Hugo&#xA;Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.&#xA;Follow the following steps:&#xA;Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313 Corresponding pseudo commands:</description>
     </item>
   </channel>
 </rss>

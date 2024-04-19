@@ -6,13 +6,34 @@
     <description>Recent content in Tags on Linguage</description>
     <generator>Hugo 0.125.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 18 Apr 2024 20:27:11 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 24 Jan 2022 14:00:00 +0000</lastBuildDate>
     <atom:link href="https://peakhan618.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>测试</title>
-      <link>https://peakhan618.github.io/tags/%E6%B5%8B%E8%AF%95/</link>
+      <title>Installation</title>
+      <link>https://peakhan618.github.io/tags/installation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://peakhan618.github.io/tags/%E6%B5%8B%E8%AF%95/</guid>
+      <guid>https://peakhan618.github.io/tags/installation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Basic Elements</title>
+      <link>https://peakhan618.github.io/tags/basic-elements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://peakhan618.github.io/tags/basic-elements/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CSS</title>
+      <link>https://peakhan618.github.io/tags/css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://peakhan618.github.io/tags/css/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HTML</title>
+      <link>https://peakhan618.github.io/tags/html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://peakhan618.github.io/tags/html/</guid>
       <description></description>
     </item>
     <item>
@@ -34,6 +55,13 @@
       <link>https://peakhan618.github.io/tags/golang/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://peakhan618.github.io/tags/golang/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>https://peakhan618.github.io/tags/hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://peakhan618.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     <item>

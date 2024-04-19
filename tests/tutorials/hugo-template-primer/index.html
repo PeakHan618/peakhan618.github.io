@@ -32,7 +32,7 @@ template systems from different languages or frameworks you will find a lot of
 similarities in Go templates.">
   <meta itemprop="datePublished" content="2014-04-02T00:00:00+00:00">
   <meta itemprop="dateModified" content="2014-04-02T00:00:00+00:00">
-  <meta itemprop="wordCount" content="1487">
+  <meta itemprop="wordCount" content="1484">
   <meta itemprop="keywords" content="Go,Golang,Templates,Themes,Development">
 		<meta name="twitter:card" content="summary"><meta name="twitter:title" content="(Hu)go Template Primer">
 <meta name="twitter:description" content="Hugo uses the excellent Go html/template library for
@@ -94,21 +94,21 @@ similarities in Go templates.">
 		<li class="menu__item">
 			<a class="menu__link" href="/books/">
 				
-				<span class="menu__text">读书计划</span>
+				<span class="menu__text">阅读</span>
 				
 			</a>
 		</li>
-		<li class="menu__item menu__item--active">
-			<a class="menu__link" href="/tests/">
+		<li class="menu__item">
+			<a class="menu__link" href="/parks/">
 				
 				<span class="menu__text">玩物志</span>
 				
 			</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="/%E5%85%B3%E4%BA%8E/">
+			<a class="menu__link" href="/labs/">
 				
-				<span class="menu__text">关于</span>
+				<span class="menu__text">试验田</span>
 				
 			</a>
 		</li>
@@ -124,9 +124,7 @@ similarities in Go templates.">
 	<article class="post">
 		<header class="post__header">
 			<h1 class="post__title">(Hu)go Template Primer</h1>
-			<div class="post__meta meta"><div class="meta__item-author meta__item">
-	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 16 16"><path d="M8 1c2 0 3.5 2 3.5 4.5S10 9 10 9c3 1 4 2 4 6H2c0-4 1-5 4-6 0 0-1.5-1-1.5-3.5S6 1 8 1"/></svg><span class="meta__text">John Doe</span>
-</div>
+			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0a14 14 0 1 1 0 28 1 1 0 0 1 0-28m0 3a3 3 0 1 0 0 22 3 3 0 0 0 0-22m1 4h-2v8.4l6.8 4.4L22 18l-6-3.8z"/></svg><time class="meta__text" datetime="2014-04-02T00:00:00Z">2014-04-02</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/development/" rel="category">Development</a>, <a class="meta__link" href="/categories/golang/" rel="category">Golang</a>
 	</span>
@@ -204,7 +202,7 @@ template is passed either a page or a node struct depending on which type of
 page you are rendering. More details are available on the
 <a href="/layout/variables">variables</a> page.</p>
 <p>A variable is accessed by referencing the variable name.</p>
-<pre><code>&lt;title&gt;{{ .Title }}&lt;/title&gt;
+<pre><code>`&lt;title&gt;`{{ .Title }}`&lt;/title&gt;`
 </code></pre>
 <p>Variables can also be defined and referenced.</p>
 <pre><code>{{ $address := &quot;123 Main St.&quot;}}
@@ -246,7 +244,7 @@ range.</p>
 {{ end }}
 </code></pre>
 <p><strong>Example 2: Declaring key and value variable name</strong></p>
-<pre><code>{{range $index, $element := array}}
+<pre><code>{{range$index, $element := array}}
     {{ $index }}
     {{ $element }}
 {{ end }}
@@ -261,7 +259,7 @@ logic in Go Templates. Like range, each statement is closed with <code>end</code
 <li>any array, slice, map, or string of length zero</li>
 </ul>
 <p><strong>Example 1: If</strong></p>
-<pre><code>{{ if isset .Params &quot;title&quot; }}&lt;h4&gt;{{ index .Params &quot;title&quot; }}&lt;/h4&gt;{{ end }}
+<pre><code>{{ if isset .Params &quot;title&quot; }}`&lt;h4&gt;`{{ index .Params &quot;title&quot; }}`&lt;/h4&gt;`{{ end }}
 </code></pre>
 <p><strong>Example 2: If -&gt; Else</strong></p>
 <pre><code>{{ if isset .Params &quot;alt&quot; }}
@@ -278,7 +276,7 @@ logic in Go Templates. Like range, each statement is closed with <code>end</code
 is to use &ldquo;with&rdquo; instead. With rebinds the context <code>.</code> within its scope,
 and skips the block if the variable is absent.</p>
 <p>The first example above could be simplified as:</p>
-<pre><code>{{ with .Params.title }}&lt;h4&gt;{{ . }}&lt;/h4&gt;{{ end }}
+<pre><code>{{ with .Params.title }}`&lt;h4&gt;`{{ . }}`&lt;/h4&gt;`{{ end }}
 </code></pre>
 <p><strong>Example 5: If -&gt; Else If</strong></p>
 <pre><code>{{ if isset .Params &quot;alt&quot; }}
@@ -328,9 +326,8 @@ will no longer refer to the data available to the entire page. If you need to
 access this from within the loop you will likely want to set it to a variable
 instead of depending on the context.</p>
 <p><strong>Example:</strong></p>
-<pre><code>  {{ $title := .Site.Title }}
-  {{ range .Params.tags }}
-    &lt;li&gt; &lt;a href=&quot;{{ $baseurl }}/tags/{{ . | urlize }}&quot;&gt;{{ . }}&lt;/a&gt; - {{ $title }} &lt;/li&gt;
+<pre><code>{{ $title := .Site.Title }}
+  {{ range .Params.tags }}`&lt;li&gt;` `&lt;a href=&quot;{{ $baseurl }}/tags/{{ . | urlize }}&quot;&gt;`{{ . }}`&lt;/a&gt;` - {{ $title }} `&lt;/li&gt;`
   {{ end }}
 </code></pre>
 <p>Notice how once we have entered the loop the value of {{ . }} has changed. We
@@ -360,10 +357,9 @@ groups_weight: 30
 notoc: true
 ---
 </code></pre><p>Here is the corresponding code inside of the template:</p>
-<pre><code>  {{ if not .Params.notoc }}
-    &lt;div id=&quot;toc&quot; class=&quot;well col-md-4 col-sm-6&quot;&gt;
+<pre><code>{{ if not .Params.notoc }}`&lt;div id=&quot;toc&quot; class=&quot;well col-md-4 col-sm-6&quot;&gt;`
     {{ .TableOfContents }}
-    &lt;/div&gt;
+    `&lt;/div&gt;`
   {{ end }}
 </code></pre>
 <h2 id="using-site-config-parameters">Using Site (config) Parameters</h2>
@@ -371,7 +367,7 @@ notoc: true
 parameters, which are values which will be available to you in chrome.</p>
 <p>For instance, you might declare:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">params</span>:
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">CopyrightHTML</span>: <span style="color:#e6db74">&#34;Copyright &amp;#xA9; 2013 John Doe. All Rights Reserved.&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">CopyrightHTML</span>: <span style="color:#e6db74">&#34;Copyright © 2013 John Doe. All Rights Reserved.&#34;</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">TwitterUser</span>: <span style="color:#e6db74">&#34;spf13&#34;</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">SidebarRecentLimit</span>: <span style="color:#ae81ff">5</span>
 </span></span></code></pre></div><p>Within a footer layout, you might then declare a <code>&lt;footer&gt;</code> which is only
@@ -426,18 +422,21 @@ so, such as in this example:</p>
 	</article>
 </main>
 
-<div class="authorbox clearfix">
-	<figure class="authorbox__avatar">
-		<img alt="John Doe avatar" src="/img/avatar.png" class="avatar" height="90" width="90">
-	</figure>
-	<div class="authorbox__header">
-		<span class="authorbox__name">About John Doe</span>
-	</div>
-	<div class="authorbox__description">
-		John Doe&rsquo;s true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it.
-	</div>
-</div>
 
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/tests/tutorials/getting-started-with-hugo/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;Previous</span>
+			<p class="pager__title">Getting Started with Hugo</p>
+		</a>
+	</div>
+	<div class="pager__item pager__item--next">
+		<a class="pager__link" href="/tests/tutorials/basic-elements/" rel="next">
+			<span class="pager__subtitle">Next&thinsp;»</span>
+			<p class="pager__title">Basic HTML Elements</p>
+		</a>
+	</div>
+</nav>
 
 
 			</div>
@@ -447,7 +446,7 @@ so, such as in this example:</p>
 	<div class="container footer__container flex">
 		
 		<div class="footer__copyright">
-			&copy; 2024 John Doe.
+			&copy; 2024 Henri Pogatrain.
 			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
 		</div>
 	</div>
