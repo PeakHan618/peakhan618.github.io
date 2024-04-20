@@ -1,55 +1,32 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title> - Linguage</title>
+	<title>《现代Fortran——创建高效并行程序》：前言 - Linguage</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
-		<meta property="og:url" content="http://localhost:1313/books/modernfortran/moderfortran-0/">
+		<meta property="og:url" content="https://peakhan618.github.io/books/modernfortran/moderfortran-0/">
   <meta property="og:site_name" content="Linguage">
-  <meta property="og:title" content="Linguage">
-  <meta property="og:description" content="前言 得知米兰·库尔奇克将要写一本现代Fortran的书，我立刻感到兴奋。几乎每周，我都会遇到人们对于Fortran在其诞生60多年后仍然在使用感到惊讶，因此，任何对一个经常被认为已经死亡或濒临消亡的语言出现新生机的迹象都是值得庆祝的。我通常会解释说，Fortran在早期接受计算机的领域中占据着最强大的地位。我会继续告诉他们，当他们每天检查天气预报时，几乎肯定会使用Fortran程序的结果。米兰的工作之所以令人着迷，是因为它将长期以来Fortran占据主导地位的已建立领域与Fortran稀缺的新兴领域联系起来。这本书源于米兰独特的视角，他一直致力于弥合阻止许多学科写作Fortran的鸿沟，并阻止大多数Fortran程序员利用其他语言中已广泛使用的编程范式。
-值得赞扬的是，这本书侧重于教授Fortran编程，而不是推广他所贡献的有趣的软件库和应用程序。那些跟随他的工作以及其他人的链接的幸运读者将获得的不仅仅是对Fortran编程的理解。这样的读者将踏上一段旅程，将数值天气预报（作为一门与计算同样古老的学科）与云计算（二十一世纪的创新）联系起来。这样的读者还将发现如何在Fortran中融入函数式编程的方面，这是一个整个语言都围绕着建立的编程范式，而Fortran则是所有高级编程语言的最终祖先。这样的读者还将暴露于神经网络的知识中，这是一个正在经历爆炸式增长并影响着诸如自动驾驶和癌症诊断等截然不同的技术的领域。
-米兰在这些领域中领导或贡献了一些流行的软件，其中一些软件包源于这本书，或者反之亦然。例如，他与他人共同开发的服务Cloudrun(https://cloudrun.co)开创了使用云计算平台进行数值天气预报软件即服务（SaaS）的先河。开源的functional-fortran库(http://mng.bz/vxy1)提供了支持一种编程范式的实用工具，这种编程范式在Fortran世界中的普及程度不如我所希望的那样高。开源的Fortran标准库（https://github.com/fortran-lang/stdlib）旨在使Fortran与其他语言更加平等，这些语言受益于被视为语言一部分的大型库。他的neural-fortran（https://github.com/modern-fortran/neural-fortran）是从他在本书的一章中的工作中发展而来的，它展示了Fortran可扩展并行编程模型在一个由缺乏内置并行编程模型以利用分布式内存平台的语言主导的领域中的应用。总的来说，这些项目被全球数百名开发人员使用，他在这本书上的工作与这些项目的工作相互影响和启发了书中对语言的覆盖。
-对于寻求现代Fortran生机的读者，米兰的工作为这种语言在技术现代化中持续发挥作用提供了充分的证据。这本书是他工作中生长出的更有活力的芽之一，感兴趣的读者将学到在米兰的广泛项目组合中已被证明有用的语言特性。
-——DAMIAN ROUSON，
-博士，P.E. 董事长，Sourcery Institute，加利福尼亚州奥克兰，美国
-序言 2017年夏天，曼宁出版社的迈克·斯蒂芬斯（Mike Stephens）首次与我联系时写道：“我们看到了你的一些论坛帖子和GitHub仓库；你考虑过和曼宁一起写一本Fortran书吗？”写书从未在我的脑海中出现过，我也不认为自己适合这个工作。我闭上眼睛，做了一个信任的飞跃。“当然，我很愿意！我把提案发送到哪里呢？”夏天结束时，我们签订了合同，并制定了初步的目录。经过两名开发编辑、两名技术编辑、四次同行评审、三次章节重写、两次飓风的影响，以及将近三年的时间，我们完成了这本书。
-欢迎来到《现代Fortran：构建高效的并行应用》！如果你拿着这本书，很可能你要么想要学习Fortran编程以应对学校或工作的需要，要么你是一位经验丰富的Fortran程序员，想要了解该语言的最新发展。无论哪种情况，你来对地方了。如果你刚开始学习，我希望这本书能为你提供一种简单、动手实践的实用Fortran编程方法。如果你已经有了使用该语言的经验，我希望这本书能成为你在Fortran世界中的实用指南。忘记如何编写既能操作标量又能操作数组的函数了吗？想知道如何为并行执行编写程序？这里有实用的项目和练习，以及解决方案，来帮助你理解。
-我很高兴有机会与你分享我在过去14年里学到的东西。提前感谢你信任我，花费时间和金钱阅读这本书。《现代Fortran》是我回报给那些教导我、帮助过我的人的方式。我希望你能利用这本书来培养下一代Fortran程序员。
-致谢 要完成一本优秀的书籍，需要整个团队的努力。迈克·斯蒂芬斯是采编编辑，他邀请我加入，并帮助制定了目录，确定了这本书的读者群。我的开发编辑克里斯汀·瓦特森（Kristen Watterson）和莱斯利·特里特斯（Lesley Trites）在整个过程中给予我指导，并不懈地推动我前进。克里斯汀与我一起起草了九章的初稿；然后莱斯利接手了剩下的工作，并将所有内容整合在一起。技术编辑米歇尔·特里姆普（Michiel Trimpe）和阿兰·库尼奥（Alain Couniot）确保指出了代码中的任何错误和令人困惑的段落。伯特·贝茨（Bert Bates）偶尔会加入，帮助我从抽象中提炼出具体内容。毛里齐奥·托马西（Maurizio Tomasi）是技术校对员，确保书中的所有代码都能正常运行。梅洛迪·多拉布（Melody Dolab）担任最终校对，洛里·韦德特（Lori Weidert）担任制作编辑。还要感谢曼宁其他与我合作的工作人员：坎迪斯·吉尔胡利（Candace Gillhoolley）、安娜·罗马克（Ana Romac）、雷哈娜·马尔卡诺维奇（Rejhana Markanovic）、亚历山大·德拉戈萨维里耶维奇（Aleksandar Dragosavljevic）、马特科·赫瓦汀（Matko Hrvatin）等等。谢谢你们，我从你们身上学到了很多。
-我还要感谢所有的审阅者：安德斯·约翰松（Anders Johansson）、安东·门舒夫（Anton Menshov）、布里奇尔·豪威尔（Bridger Howell）、大卫·克莱门斯（David Celements）、达维德·卡达穆罗（Davide Cadamuro）、弗雷德里克·拉格纳（Fredric Ragnar）、简·皮特·赫韦尔（Jan Pieter Herweijer）、何塞·圣莱安德罗（Jose San Leandro）、约瑟夫·伊恩·沃克（Joseph Ian Walker）、卡纳克·克谢特里（Kanak Kshetri）、肯·W·阿尔杰（Ken W. Alger）、康拉德·欣森（Konrad Hinsen）、凯尔·曼德利（Kyle Mandli）、莱昂纳多·科斯塔·普劳奇纳（Leonardo Costa Prauchner）、洛蒂·格林伍德（Lottie Greenwood）、路易斯·穆·多明格斯（Luis MouxDomínguez）、马尔西奥·尼科劳（Marcio Nicolau）、马丁·比尔（Martin Beer）、马修·埃米特（Matthew Emmett）、毛里齐奥·托马西（Maurizio Tomasi）、迈克尔·詹森（Michael Jensen）、米哈尔·康拉德·奥维亚克（Michal Konrad Owsiak）、米克尔·阿伦托夫特（Mikkel Arentoft）、翁德雷·切尔蒂克（Ondrˇej Cˇertík）、帕特里克·西沃尔德（Patrick Seewald）、理查德·菲尔森德（Richard Fieldsend）、瑞安·B·哈维（Ryan B. Harvey）、斯尔德扬·桑蒂奇（Srdjan Santic）、斯蒂法诺·博里尼（Stefano Borini）、蒂齐亚诺·穆勒（Tiziano Müller）、汤姆·格思（Tom Gueth）、瓦尔米基·阿奎萨达斯（Valmiky Arquissandas）以及文森特·扎巴拉（Vincent Zaballa）。你们的建议帮助了这本书的完善。">
+  <meta property="og:title" content="《现代Fortran——创建高效并行程序》：前言">
+  <meta property="og:description" content="Henri Pogatrain&#39;s Personal blog about everything">
   <meta property="og:locale" content="zh-cn">
   <meta property="og:type" content="article">
   <meta property="article:section" content="books">
+    <meta property="article:published_time" content="2024-04-20T09:50:12+08:00">
+    <meta property="article:modified_time" content="2024-04-20T09:50:12+08:00">
+    <meta property="article:tag" content="Fortran">
+    <meta property="article:tag" content="图书">
 
 		
-  <meta itemprop="name" content="Linguage">
-  <meta itemprop="description" content="前言 得知米兰·库尔奇克将要写一本现代Fortran的书，我立刻感到兴奋。几乎每周，我都会遇到人们对于Fortran在其诞生60多年后仍然在使用感到惊讶，因此，任何对一个经常被认为已经死亡或濒临消亡的语言出现新生机的迹象都是值得庆祝的。我通常会解释说，Fortran在早期接受计算机的领域中占据着最强大的地位。我会继续告诉他们，当他们每天检查天气预报时，几乎肯定会使用Fortran程序的结果。米兰的工作之所以令人着迷，是因为它将长期以来Fortran占据主导地位的已建立领域与Fortran稀缺的新兴领域联系起来。这本书源于米兰独特的视角，他一直致力于弥合阻止许多学科写作Fortran的鸿沟，并阻止大多数Fortran程序员利用其他语言中已广泛使用的编程范式。
-值得赞扬的是，这本书侧重于教授Fortran编程，而不是推广他所贡献的有趣的软件库和应用程序。那些跟随他的工作以及其他人的链接的幸运读者将获得的不仅仅是对Fortran编程的理解。这样的读者将踏上一段旅程，将数值天气预报（作为一门与计算同样古老的学科）与云计算（二十一世纪的创新）联系起来。这样的读者还将发现如何在Fortran中融入函数式编程的方面，这是一个整个语言都围绕着建立的编程范式，而Fortran则是所有高级编程语言的最终祖先。这样的读者还将暴露于神经网络的知识中，这是一个正在经历爆炸式增长并影响着诸如自动驾驶和癌症诊断等截然不同的技术的领域。
-米兰在这些领域中领导或贡献了一些流行的软件，其中一些软件包源于这本书，或者反之亦然。例如，他与他人共同开发的服务Cloudrun(https://cloudrun.co)开创了使用云计算平台进行数值天气预报软件即服务（SaaS）的先河。开源的functional-fortran库(http://mng.bz/vxy1)提供了支持一种编程范式的实用工具，这种编程范式在Fortran世界中的普及程度不如我所希望的那样高。开源的Fortran标准库（https://github.com/fortran-lang/stdlib）旨在使Fortran与其他语言更加平等，这些语言受益于被视为语言一部分的大型库。他的neural-fortran（https://github.com/modern-fortran/neural-fortran）是从他在本书的一章中的工作中发展而来的，它展示了Fortran可扩展并行编程模型在一个由缺乏内置并行编程模型以利用分布式内存平台的语言主导的领域中的应用。总的来说，这些项目被全球数百名开发人员使用，他在这本书上的工作与这些项目的工作相互影响和启发了书中对语言的覆盖。
-对于寻求现代Fortran生机的读者，米兰的工作为这种语言在技术现代化中持续发挥作用提供了充分的证据。这本书是他工作中生长出的更有活力的芽之一，感兴趣的读者将学到在米兰的广泛项目组合中已被证明有用的语言特性。
-——DAMIAN ROUSON，
-博士，P.E. 董事长，Sourcery Institute，加利福尼亚州奥克兰，美国
-序言 2017年夏天，曼宁出版社的迈克·斯蒂芬斯（Mike Stephens）首次与我联系时写道：“我们看到了你的一些论坛帖子和GitHub仓库；你考虑过和曼宁一起写一本Fortran书吗？”写书从未在我的脑海中出现过，我也不认为自己适合这个工作。我闭上眼睛，做了一个信任的飞跃。“当然，我很愿意！我把提案发送到哪里呢？”夏天结束时，我们签订了合同，并制定了初步的目录。经过两名开发编辑、两名技术编辑、四次同行评审、三次章节重写、两次飓风的影响，以及将近三年的时间，我们完成了这本书。
-欢迎来到《现代Fortran：构建高效的并行应用》！如果你拿着这本书，很可能你要么想要学习Fortran编程以应对学校或工作的需要，要么你是一位经验丰富的Fortran程序员，想要了解该语言的最新发展。无论哪种情况，你来对地方了。如果你刚开始学习，我希望这本书能为你提供一种简单、动手实践的实用Fortran编程方法。如果你已经有了使用该语言的经验，我希望这本书能成为你在Fortran世界中的实用指南。忘记如何编写既能操作标量又能操作数组的函数了吗？想知道如何为并行执行编写程序？这里有实用的项目和练习，以及解决方案，来帮助你理解。
-我很高兴有机会与你分享我在过去14年里学到的东西。提前感谢你信任我，花费时间和金钱阅读这本书。《现代Fortran》是我回报给那些教导我、帮助过我的人的方式。我希望你能利用这本书来培养下一代Fortran程序员。
-致谢 要完成一本优秀的书籍，需要整个团队的努力。迈克·斯蒂芬斯是采编编辑，他邀请我加入，并帮助制定了目录，确定了这本书的读者群。我的开发编辑克里斯汀·瓦特森（Kristen Watterson）和莱斯利·特里特斯（Lesley Trites）在整个过程中给予我指导，并不懈地推动我前进。克里斯汀与我一起起草了九章的初稿；然后莱斯利接手了剩下的工作，并将所有内容整合在一起。技术编辑米歇尔·特里姆普（Michiel Trimpe）和阿兰·库尼奥（Alain Couniot）确保指出了代码中的任何错误和令人困惑的段落。伯特·贝茨（Bert Bates）偶尔会加入，帮助我从抽象中提炼出具体内容。毛里齐奥·托马西（Maurizio Tomasi）是技术校对员，确保书中的所有代码都能正常运行。梅洛迪·多拉布（Melody Dolab）担任最终校对，洛里·韦德特（Lori Weidert）担任制作编辑。还要感谢曼宁其他与我合作的工作人员：坎迪斯·吉尔胡利（Candace Gillhoolley）、安娜·罗马克（Ana Romac）、雷哈娜·马尔卡诺维奇（Rejhana Markanovic）、亚历山大·德拉戈萨维里耶维奇（Aleksandar Dragosavljevic）、马特科·赫瓦汀（Matko Hrvatin）等等。谢谢你们，我从你们身上学到了很多。
-我还要感谢所有的审阅者：安德斯·约翰松（Anders Johansson）、安东·门舒夫（Anton Menshov）、布里奇尔·豪威尔（Bridger Howell）、大卫·克莱门斯（David Celements）、达维德·卡达穆罗（Davide Cadamuro）、弗雷德里克·拉格纳（Fredric Ragnar）、简·皮特·赫韦尔（Jan Pieter Herweijer）、何塞·圣莱安德罗（Jose San Leandro）、约瑟夫·伊恩·沃克（Joseph Ian Walker）、卡纳克·克谢特里（Kanak Kshetri）、肯·W·阿尔杰（Ken W. Alger）、康拉德·欣森（Konrad Hinsen）、凯尔·曼德利（Kyle Mandli）、莱昂纳多·科斯塔·普劳奇纳（Leonardo Costa Prauchner）、洛蒂·格林伍德（Lottie Greenwood）、路易斯·穆·多明格斯（Luis MouxDomínguez）、马尔西奥·尼科劳（Marcio Nicolau）、马丁·比尔（Martin Beer）、马修·埃米特（Matthew Emmett）、毛里齐奥·托马西（Maurizio Tomasi）、迈克尔·詹森（Michael Jensen）、米哈尔·康拉德·奥维亚克（Michal Konrad Owsiak）、米克尔·阿伦托夫特（Mikkel Arentoft）、翁德雷·切尔蒂克（Ondrˇej Cˇertík）、帕特里克·西沃尔德（Patrick Seewald）、理查德·菲尔森德（Richard Fieldsend）、瑞安·B·哈维（Ryan B. Harvey）、斯尔德扬·桑蒂奇（Srdjan Santic）、斯蒂法诺·博里尼（Stefano Borini）、蒂齐亚诺·穆勒（Tiziano Müller）、汤姆·格思（Tom Gueth）、瓦尔米基·阿奎萨达斯（Valmiky Arquissandas）以及文森特·扎巴拉（Vincent Zaballa）。你们的建议帮助了这本书的完善。">
+  <meta itemprop="name" content="《现代Fortran——创建高效并行程序》：前言">
+  <meta itemprop="description" content="Henri Pogatrain&#39;s Personal blog about everything">
+  <meta itemprop="datePublished" content="2024-04-20T09:50:12+08:00">
+  <meta itemprop="dateModified" content="2024-04-20T09:50:12+08:00">
   <meta itemprop="wordCount" content="168">
-		<meta name="twitter:card" content="summary"><meta name="twitter:title" content="">
-<meta name="twitter:description" content="前言 得知米兰·库尔奇克将要写一本现代Fortran的书，我立刻感到兴奋。几乎每周，我都会遇到人们对于Fortran在其诞生60多年后仍然在使用感到惊讶，因此，任何对一个经常被认为已经死亡或濒临消亡的语言出现新生机的迹象都是值得庆祝的。我通常会解释说，Fortran在早期接受计算机的领域中占据着最强大的地位。我会继续告诉他们，当他们每天检查天气预报时，几乎肯定会使用Fortran程序的结果。米兰的工作之所以令人着迷，是因为它将长期以来Fortran占据主导地位的已建立领域与Fortran稀缺的新兴领域联系起来。这本书源于米兰独特的视角，他一直致力于弥合阻止许多学科写作Fortran的鸿沟，并阻止大多数Fortran程序员利用其他语言中已广泛使用的编程范式。
-值得赞扬的是，这本书侧重于教授Fortran编程，而不是推广他所贡献的有趣的软件库和应用程序。那些跟随他的工作以及其他人的链接的幸运读者将获得的不仅仅是对Fortran编程的理解。这样的读者将踏上一段旅程，将数值天气预报（作为一门与计算同样古老的学科）与云计算（二十一世纪的创新）联系起来。这样的读者还将发现如何在Fortran中融入函数式编程的方面，这是一个整个语言都围绕着建立的编程范式，而Fortran则是所有高级编程语言的最终祖先。这样的读者还将暴露于神经网络的知识中，这是一个正在经历爆炸式增长并影响着诸如自动驾驶和癌症诊断等截然不同的技术的领域。
-米兰在这些领域中领导或贡献了一些流行的软件，其中一些软件包源于这本书，或者反之亦然。例如，他与他人共同开发的服务Cloudrun(https://cloudrun.co)开创了使用云计算平台进行数值天气预报软件即服务（SaaS）的先河。开源的functional-fortran库(http://mng.bz/vxy1)提供了支持一种编程范式的实用工具，这种编程范式在Fortran世界中的普及程度不如我所希望的那样高。开源的Fortran标准库（https://github.com/fortran-lang/stdlib）旨在使Fortran与其他语言更加平等，这些语言受益于被视为语言一部分的大型库。他的neural-fortran（https://github.com/modern-fortran/neural-fortran）是从他在本书的一章中的工作中发展而来的，它展示了Fortran可扩展并行编程模型在一个由缺乏内置并行编程模型以利用分布式内存平台的语言主导的领域中的应用。总的来说，这些项目被全球数百名开发人员使用，他在这本书上的工作与这些项目的工作相互影响和启发了书中对语言的覆盖。
-对于寻求现代Fortran生机的读者，米兰的工作为这种语言在技术现代化中持续发挥作用提供了充分的证据。这本书是他工作中生长出的更有活力的芽之一，感兴趣的读者将学到在米兰的广泛项目组合中已被证明有用的语言特性。
-——DAMIAN ROUSON，
-博士，P.E. 董事长，Sourcery Institute，加利福尼亚州奥克兰，美国
-序言 2017年夏天，曼宁出版社的迈克·斯蒂芬斯（Mike Stephens）首次与我联系时写道：“我们看到了你的一些论坛帖子和GitHub仓库；你考虑过和曼宁一起写一本Fortran书吗？”写书从未在我的脑海中出现过，我也不认为自己适合这个工作。我闭上眼睛，做了一个信任的飞跃。“当然，我很愿意！我把提案发送到哪里呢？”夏天结束时，我们签订了合同，并制定了初步的目录。经过两名开发编辑、两名技术编辑、四次同行评审、三次章节重写、两次飓风的影响，以及将近三年的时间，我们完成了这本书。
-欢迎来到《现代Fortran：构建高效的并行应用》！如果你拿着这本书，很可能你要么想要学习Fortran编程以应对学校或工作的需要，要么你是一位经验丰富的Fortran程序员，想要了解该语言的最新发展。无论哪种情况，你来对地方了。如果你刚开始学习，我希望这本书能为你提供一种简单、动手实践的实用Fortran编程方法。如果你已经有了使用该语言的经验，我希望这本书能成为你在Fortran世界中的实用指南。忘记如何编写既能操作标量又能操作数组的函数了吗？想知道如何为并行执行编写程序？这里有实用的项目和练习，以及解决方案，来帮助你理解。
-我很高兴有机会与你分享我在过去14年里学到的东西。提前感谢你信任我，花费时间和金钱阅读这本书。《现代Fortran》是我回报给那些教导我、帮助过我的人的方式。我希望你能利用这本书来培养下一代Fortran程序员。
-致谢 要完成一本优秀的书籍，需要整个团队的努力。迈克·斯蒂芬斯是采编编辑，他邀请我加入，并帮助制定了目录，确定了这本书的读者群。我的开发编辑克里斯汀·瓦特森（Kristen Watterson）和莱斯利·特里特斯（Lesley Trites）在整个过程中给予我指导，并不懈地推动我前进。克里斯汀与我一起起草了九章的初稿；然后莱斯利接手了剩下的工作，并将所有内容整合在一起。技术编辑米歇尔·特里姆普（Michiel Trimpe）和阿兰·库尼奥（Alain Couniot）确保指出了代码中的任何错误和令人困惑的段落。伯特·贝茨（Bert Bates）偶尔会加入，帮助我从抽象中提炼出具体内容。毛里齐奥·托马西（Maurizio Tomasi）是技术校对员，确保书中的所有代码都能正常运行。梅洛迪·多拉布（Melody Dolab）担任最终校对，洛里·韦德特（Lori Weidert）担任制作编辑。还要感谢曼宁其他与我合作的工作人员：坎迪斯·吉尔胡利（Candace Gillhoolley）、安娜·罗马克（Ana Romac）、雷哈娜·马尔卡诺维奇（Rejhana Markanovic）、亚历山大·德拉戈萨维里耶维奇（Aleksandar Dragosavljevic）、马特科·赫瓦汀（Matko Hrvatin）等等。谢谢你们，我从你们身上学到了很多。
-我还要感谢所有的审阅者：安德斯·约翰松（Anders Johansson）、安东·门舒夫（Anton Menshov）、布里奇尔·豪威尔（Bridger Howell）、大卫·克莱门斯（David Celements）、达维德·卡达穆罗（Davide Cadamuro）、弗雷德里克·拉格纳（Fredric Ragnar）、简·皮特·赫韦尔（Jan Pieter Herweijer）、何塞·圣莱安德罗（Jose San Leandro）、约瑟夫·伊恩·沃克（Joseph Ian Walker）、卡纳克·克谢特里（Kanak Kshetri）、肯·W·阿尔杰（Ken W. Alger）、康拉德·欣森（Konrad Hinsen）、凯尔·曼德利（Kyle Mandli）、莱昂纳多·科斯塔·普劳奇纳（Leonardo Costa Prauchner）、洛蒂·格林伍德（Lottie Greenwood）、路易斯·穆·多明格斯（Luis MouxDomínguez）、马尔西奥·尼科劳（Marcio Nicolau）、马丁·比尔（Martin Beer）、马修·埃米特（Matthew Emmett）、毛里齐奥·托马西（Maurizio Tomasi）、迈克尔·詹森（Michael Jensen）、米哈尔·康拉德·奥维亚克（Michal Konrad Owsiak）、米克尔·阿伦托夫特（Mikkel Arentoft）、翁德雷·切尔蒂克（Ondrˇej Cˇertík）、帕特里克·西沃尔德（Patrick Seewald）、理查德·菲尔森德（Richard Fieldsend）、瑞安·B·哈维（Ryan B. Harvey）、斯尔德扬·桑蒂奇（Srdjan Santic）、斯蒂法诺·博里尼（Stefano Borini）、蒂齐亚诺·穆勒（Tiziano Müller）、汤姆·格思（Tom Gueth）、瓦尔米基·阿奎萨达斯（Valmiky Arquissandas）以及文森特·扎巴拉（Vincent Zaballa）。你们的建议帮助了这本书的完善。">
+  <meta itemprop="keywords" content="Fortran,图书">
+		<meta name="twitter:card" content="summary"><meta name="twitter:title" content="《现代Fortran——创建高效并行程序》：前言">
+<meta name="twitter:description" content="">
 
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -60,6 +37,10 @@
 	<link rel="stylesheet" href="/css/custom.css">
 
 	<link rel="shortcut icon" href="/favicon.ico">
+		
+  
+
+
 </head>
 <body class="body">
 	<div class="container container--outer">
@@ -128,29 +109,17 @@
 <main class="main" role="main">
 	<article class="post">
 		<header class="post__header">
-			<h1 class="post__title"></h1>
+			<h1 class="post__title">《现代Fortran——创建高效并行程序》：前言</h1>
 			<div class="post__meta meta"><div class="meta__item-author meta__item">
 	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 16 16"><path d="M8 1c2 0 3.5 2 3.5 4.5S10 9 10 9c3 1 4 2 4 6H2c0-4 1-5 4-6 0 0-1.5-1-1.5-3.5S6 1 8 1"/></svg><span class="meta__text">Henri Pogatrain</span>
-</div></div>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0a14 14 0 1 1 0 28 1 1 0 0 1 0-28m0 3a3 3 0 1 0 0 22 3 3 0 0 0 0-22m1 4h-2v8.4l6.8 4.4L22 18l-6-3.8z"/></svg><time class="meta__text" datetime="2024-04-20T09:50:12&#43;08:00">2024-04-20</time></div></div>
 		</header>
-		
-<div class="post__toc toc">
-	<div class="toc__title">Page content</div>
-	<div class="toc__menu">
-		<nav id="TableOfContents">
-  <ul>
-    <li><a href="#适合阅读本书的人群">适合阅读本书的人群</a></li>
-    <li><a href="#一点fortran历史">一点Fortran历史</a></li>
-    <li><a href="#本书组织结构路线图">本书组织结构：路线图</a></li>
-    <li><a href="#关于代码">关于代码</a></li>
-    <li><a href="#环境要求">环境要求</a></li>
-    <li><a href="#参与其中">参与其中</a></li>
-    <li><a href="#livebook讨论论坛">liveBook讨论论坛</a></li>
-  </ul>
-</nav>
-	</div>
-</div><div class="content post__content clearfix">
-			<p><img src="./Figures_0/%E6%88%AA%E5%B1%8F2024-02-21%2016.25.34.png" alt="封面"></p>
+		<div class="content post__content clearfix">
+			<blockquote>
+</blockquote>
+<p><img src="../Figures_0/%E6%88%AA%E5%B1%8F2024-02-21%2016.25.34.png" alt="封面"></p>
 <h1 id="前言">前言</h1>
 <p>得知米兰·库尔奇克将要写一本现代Fortran的书，我立刻感到兴奋。几乎每周，我都会遇到人们对于Fortran在其诞生60多年后仍然在使用感到惊讶，因此，任何对一个经常被认为已经死亡或濒临消亡的语言出现新生机的迹象都是值得庆祝的。我通常会解释说，Fortran在早期接受计算机的领域中占据着最强大的地位。我会继续告诉他们，当他们每天检查天气预报时，几乎肯定会使用Fortran程序的结果。米兰的工作之所以令人着迷，是因为它将长期以来Fortran占据主导地位的已建立领域与Fortran稀缺的新兴领域联系起来。这本书源于米兰独特的视角，他一直致力于弥合阻止许多学科写作Fortran的鸿沟，并阻止大多数Fortran程序员利用其他语言中已广泛使用的编程范式。</p>
 <p>值得赞扬的是，这本书侧重于教授Fortran编程，而不是推广他所贡献的有趣的软件库和应用程序。那些跟随他的工作以及其他人的链接的幸运读者将获得的不仅仅是对Fortran编程的理解。这样的读者将踏上一段旅程，将数值天气预报（作为一门与计算同样古老的学科）与云计算（二十一世纪的创新）联系起来。这样的读者还将发现如何在Fortran中融入函数式编程的方面，这是一个整个语言都围绕着建立的编程范式，而Fortran则是所有高级编程语言的最终祖先。这样的读者还将暴露于神经网络的知识中，这是一个正在经历爆炸式增长并影响着诸如自动驾驶和癌症诊断等截然不同的技术的领域。</p>
@@ -257,23 +226,36 @@
 <p>《现代Fortran：构建高效并行应用》封面上的图案标题为“Ingrienne”，指的是历史地理区域Ingria的女性，该地区位于芬兰湾的南岸。这幅插图取自雅克·格拉塞·德·圣索维尔（Jacques Grasset de Saint-Sauveur，1757–1810）的一部作品，标题为《各国现代民俗服饰》，于1788年在法国出版。每幅插图都是精细绘制和手工上色的。格拉塞·德·圣索维尔收集的丰富多样的作品让我们生动地回想起200年前世界各地的城镇和地区在文化上是多么独立。人们彼此隔绝，说着不同的方言和语言。在街上或乡间，仅凭着他们的着装就可以轻易地辨别出他们住在哪里，以及他们的贸易或社会地位。</p>
 <p>自那时以来，我们的着装方式已经发生了变化，当时如此丰富多样的地区多样性已经消失了。现在很难区分不同大陆的居民，更不用说不同的城镇、地区或国家了。也许我们以文化多样性换取了更丰富多样的个人生活——当然还有更丰富多样和快节奏的技术生活。</p>
 <p>在很难区分一本计算机书籍与另一本计算机书籍的时代，曼宁出版社通过基于两个世纪前地区生活丰富多样性的封面图案，借助格拉塞·德·圣索维尔的插图，庆祝计算机业的创造力和主动性。</p>
-
 		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M4 0h8s2 0 4 2l15 15s2 2 0 4L21 31s-2 2-4 0L2 16s-2-2-2-4V3s0-3 4-3m3 10a3 3 0 0 0 0-6 3 3 0 0 0 0 6"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/fortran/" rel="tag">Fortran</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/%E5%9B%BE%E4%B9%A6/" rel="tag">图书</a>
+		</li>
+	</ul>
+</div>
+		</footer>
 	</article>
 </main>
 
 
 <nav class="pager flex">
 	<div class="pager__item pager__item--prev">
-		<a class="pager__link" href="/books/modernfortran/modernfortran-1/" rel="prev">
+		<a class="pager__link" href="/books/modernfortran/appendix/" rel="prev">
 			<span class="pager__subtitle">«&thinsp;Previous</span>
-			<p class="pager__title"></p>
+			<p class="pager__title">《现代Fortran——创建高效并行程序》：附录</p>
 		</a>
 	</div>
 	<div class="pager__item pager__item--next">
-		<a class="pager__link" href="/books/modernfortran/appendix/" rel="next">
+		<a class="pager__link" href="/books/modernfortran/modernfortran-1/" rel="next">
 			<span class="pager__subtitle">Next&thinsp;»</span>
-			<p class="pager__title">Modern Fortran 附录</p>
+			<p class="pager__title">《现代Fortran——创建高效并行应用》：第1章 介绍 Fortran</p>
 		</a>
 	</div>
 </nav>
