@@ -2,31 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Linguage</title>
-    <link>https://peakhan618.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Linguage</description>
     <generator>Hugo 0.125.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 20 Apr 2024 09:52:12 +0800</lastBuildDate>
-    <atom:link href="https://peakhan618.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Fortran</title>
-      <link>https://peakhan618.github.io/tags/fortran/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://peakhan618.github.io/tags/fortran/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>图书</title>
-      <link>https://peakhan618.github.io/tags/%E5%9B%BE%E4%B9%A6/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://peakhan618.github.io/tags/%E5%9B%BE%E4%B9%A6/</guid>
-      <description></description>
-    </item>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mathjax</title>
-      <link>https://peakhan618.github.io/tags/mathjax/</link>
+      <link>http://localhost:1313/tags/mathjax/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://peakhan618.github.io/tags/mathjax/</guid>
+      <guid>http://localhost:1313/tags/mathjax/</guid>
       <description></description>
     </item>
   </channel>
