@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>《现代Fortran——创建高效并行程序》：附录 - Linguage</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="Modern Fortran 附录">
-		<meta property="og:url" content="https://peakhan618.github.io/books/modernfortran/appendix/">
+		<meta property="og:url" content="http://localhost:1313/books/modernfortran/appendix/">
   <meta property="og:site_name" content="Linguage">
   <meta property="og:title" content="《现代Fortran——创建高效并行程序》：附录">
   <meta property="og:description" content="Modern Fortran 附录">
@@ -37,10 +37,6 @@
 	<link rel="stylesheet" href="/css/custom.css">
 
 	<link rel="shortcut icon" href="/favicon.ico">
-		
-  
-
-
 </head>
 <body class="body">
 	<div class="container container--outer">
@@ -95,6 +91,27 @@
 			<a class="menu__link" href="/labs/">
 				
 				<span class="menu__text">试验田</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/%E5%85%B3%E4%BA%8E/">
+				
+				<span class="menu__text">关于</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/tests/">
+				
+				<span class="menu__text">博客功能测试</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/drafts/">
+				
+				<span class="menu__text">草稿箱</span>
 				
 			</a>
 		</li>
@@ -378,15 +395,15 @@ modern-fortran       latest    0e5c745c8928   6 minutes ago    546MB
 </span></span><span style="display:flex;"><span>                <span style="color:#f92672">+</span> g <span style="color:#f92672">*</span> diffy(h) <span style="color:#f92672">/</span> dy) <span style="color:#f92672">*</span> dt
 </span></span><span style="display:flex;"><span>        h <span style="color:#f92672">=</span> h <span style="color:#f92672">-</span> (diffx(u <span style="color:#f92672">*</span> (hm <span style="color:#f92672">+</span> h)) <span style="color:#f92672">/</span> dx &amp;
 </span></span><span style="display:flex;"><span>                <span style="color:#f92672">+</span> diffy(v <span style="color:#f92672">*</span> (hm <span style="color:#f92672">+</span> h)) <span style="color:#f92672">/</span> dy) <span style="color:#f92672">*</span> dt
-</span></span><span style="display:flex;"><span>      
+</span></span><span style="display:flex;"><span>    
 </span></span><span style="display:flex;"><span>        <span style="color:#75715e">! 计算全局水面高度的最小值
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        hmin <span style="color:#f92672">=</span> minval(h % <span style="color:#66d9ef">data</span>)
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">call</span> co_min(hmin, <span style="color:#ae81ff">1</span>)
-</span></span><span style="display:flex;"><span>      
+</span></span><span style="display:flex;"><span>    
 </span></span><span style="display:flex;"><span>        <span style="color:#75715e">! 计算全局水面高度的最大值
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        hmax <span style="color:#f92672">=</span> maxval(h % <span style="color:#66d9ef">data</span>)
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">call</span> co_max(hmax, <span style="color:#ae81ff">1</span>)
-</span></span><span style="display:flex;"><span>      
+</span></span><span style="display:flex;"><span>    
 </span></span><span style="display:flex;"><span>        <span style="color:#75715e">! 计算全局水面高度的平均值
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        hmean <span style="color:#f92672">=</span> sum(h % <span style="color:#66d9ef">data</span>(h % lb(<span style="color:#ae81ff">1</span>):h % ub(<span style="color:#ae81ff">1</span>), &amp;
 </span></span><span style="display:flex;"><span>                            h % lb(<span style="color:#ae81ff">2</span>):h % ub(<span style="color:#ae81ff">2</span>))) &amp;
@@ -394,7 +411,7 @@ modern-fortran       latest    0e5c745c8928   6 minutes ago    546MB
 </span></span><span style="display:flex;"><span>                                h % lb(<span style="color:#ae81ff">2</span>):h % ub(<span style="color:#ae81ff">2</span>)))
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">call</span> co_sum(hmean, <span style="color:#ae81ff">1</span>)
 </span></span><span style="display:flex;"><span>        hmean <span style="color:#f92672">=</span> hmean <span style="color:#f92672">/</span> num_images()
-</span></span><span style="display:flex;"><span>      
+</span></span><span style="display:flex;"><span>    
 </span></span><span style="display:flex;"><span>        <span style="color:#75715e">! 将当前时间步数和水面高度统计信息打印到终端
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">if</span> (this_image() <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>) <span style="color:#66d9ef">then</span>
 </span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">print</span> <span style="color:#e6db74">&#39;(a, i5, 3(f10.6))&#39;</span>, &amp;
@@ -719,7 +736,7 @@ fieldname和time用于构建要写入文件的名称。一旦评估了文件名�
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">integer</span>(int32), <span style="color:#66d9ef">intent</span>(in) <span style="color:#66d9ef">::</span> n
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">integer</span>(int32), <span style="color:#66d9ef">allocatable</span> <span style="color:#66d9ef">::</span> denominators(:)
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">integer</span>(int32) <span style="color:#66d9ef">::</span> i
-</span></span><span style="display:flex;"><span>      
+</span></span><span style="display:flex;"><span>    
 </span></span><span style="display:flex;"><span>        denominators <span style="color:#f92672">=</span> [<span style="color:#66d9ef">integer</span>(int32) <span style="color:#66d9ef">::</span>]
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">do</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>, n
 </span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (mod(n, i) <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>) <span style="color:#66d9ef">then</span>
@@ -733,7 +750,7 @@ fieldname和time用于构建要写入文件的名称。一旦评估了文件名�
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">integer</span>(int32) <span style="color:#66d9ef">::</span> num_tiles(<span style="color:#ae81ff">2</span>)
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">integer</span>(int32), <span style="color:#66d9ef">allocatable</span> <span style="color:#66d9ef">::</span> denoms(:), dim1(:), dim2(:)
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">integer</span>(int32) <span style="color:#66d9ef">::</span> i, j, n1, n2
-</span></span><span style="display:flex;"><span>      
+</span></span><span style="display:flex;"><span>    
 </span></span><span style="display:flex;"><span>        denoms <span style="color:#f92672">=</span> denominators(n)
 </span></span><span style="display:flex;"><span>        dim1 <span style="color:#f92672">=</span> [<span style="color:#66d9ef">integer</span>(int32) <span style="color:#66d9ef">::</span>]
 </span></span><span style="display:flex;"><span>        dim2 <span style="color:#f92672">=</span> [<span style="color:#66d9ef">integer</span>(int32) <span style="color:#66d9ef">::</span>]
@@ -745,7 +762,7 @@ fieldname和time用于构建要写入文件的名称。一旦评估了文件名�
 </span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">end</span> <span style="color:#66d9ef">if</span>
 </span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">end</span> <span style="color:#66d9ef">do</span>
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">end</span> <span style="color:#66d9ef">do</span>
-</span></span><span style="display:flex;"><span>      
+</span></span><span style="display:flex;"><span>    
 </span></span><span style="display:flex;"><span>        num_tiles <span style="color:#f92672">=</span> [dim1(<span style="color:#ae81ff">1</span>), dim2(<span style="color:#ae81ff">1</span>)]
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">do</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>, size(dim1)
 </span></span><span style="display:flex;"><span>            n1 <span style="color:#f92672">=</span> norm2([dim1(i), dim2(i)] <span style="color:#f92672">-</span> sqrt(<span style="color:#66d9ef">real</span>(n)))
@@ -760,7 +777,7 @@ fieldname和time用于构建要写入文件的名称。一旦评估了文件名�
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">integer</span>(int32), <span style="color:#66d9ef">intent</span>(in) <span style="color:#66d9ef">::</span> dims, i, n
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">integer</span>(int32) <span style="color:#66d9ef">::</span> indices(<span style="color:#ae81ff">2</span>)
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">integer</span>(int32) <span style="color:#66d9ef">::</span> offset, tile_size
-</span></span><span style="display:flex;"><span>      
+</span></span><span style="display:flex;"><span>    
 </span></span><span style="display:flex;"><span>        tile_size <span style="color:#f92672">=</span> dims <span style="color:#f92672">/</span> n
 </span></span><span style="display:flex;"><span>        indices(<span style="color:#ae81ff">1</span>) <span style="color:#f92672">=</span> (i <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">*</span> tile_size <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
 </span></span><span style="display:flex;"><span>        indices(<span style="color:#ae81ff">2</span>) <span style="color:#f92672">=</span> indices(<span style="color:#ae81ff">1</span>) <span style="color:#f92672">+</span> tile_size <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>
@@ -775,7 +792,7 @@ fieldname和time用于构建要写入文件的名称。一旦评估了文件名�
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">integer</span>(int32), <span style="color:#66d9ef">intent</span>(in) <span style="color:#66d9ef">::</span> dims(<span style="color:#ae81ff">2</span>)
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">integer</span>(int32) <span style="color:#66d9ef">::</span> indices(<span style="color:#ae81ff">4</span>)
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">integer</span>(int32) <span style="color:#66d9ef">::</span> tiles(<span style="color:#ae81ff">2</span>), tiles_ij(<span style="color:#ae81ff">2</span>)
-</span></span><span style="display:flex;"><span>      
+</span></span><span style="display:flex;"><span>    
 </span></span><span style="display:flex;"><span>        tiles <span style="color:#f92672">=</span> num_tiles(num_images())
 </span></span><span style="display:flex;"><span>        tiles_ij <span style="color:#f92672">=</span> tile_n2ij(this_image())
 </span></span><span style="display:flex;"><span>        indices(<span style="color:#ae81ff">1</span>:<span style="color:#ae81ff">2</span>) <span style="color:#f92672">=</span> tile_indices_1d(dims(<span style="color:#ae81ff">1</span>), tiles_ij(<span style="color:#ae81ff">1</span>), tiles(<span style="color:#ae81ff">1</span>))
@@ -785,7 +802,7 @@ fieldname和time用于构建要写入文件的名称。一旦评估了文件名�
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">pure</span> <span style="color:#66d9ef">function</span> tile_neighbors_1d() <span style="color:#66d9ef">result</span>(neighbors)
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">integer</span>(int32) <span style="color:#66d9ef">::</span> neighbors(<span style="color:#ae81ff">2</span>)
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">integer</span>(int32) <span style="color:#66d9ef">::</span> left, right
-</span></span><span style="display:flex;"><span>      
+</span></span><span style="display:flex;"><span>    
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (num_images() <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">1</span>) <span style="color:#66d9ef">then</span>
 </span></span><span style="display:flex;"><span>            left <span style="color:#f92672">=</span> this_image() <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>
 </span></span><span style="display:flex;"><span>            right <span style="color:#f92672">=</span> this_image() <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
@@ -804,7 +821,7 @@ fieldname和time用于构建要写入文件的名称。一旦评估了文件名�
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">pure</span> <span style="color:#66d9ef">function</span> tile_n2ij(n) <span style="color:#66d9ef">result</span>(ij)
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">integer</span>(int32), <span style="color:#66d9ef">intent</span>(in) <span style="color:#66d9ef">::</span> n
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">integer</span>(int32) <span style="color:#66d9ef">::</span> ij(<span style="color:#ae81ff">2</span>), i, j, tiles(<span style="color:#ae81ff">2</span>)
-</span></span><span style="display:flex;"><span>      
+</span></span><span style="display:flex;"><span>    
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (n <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>) <span style="color:#66d9ef">then</span>
 </span></span><span style="display:flex;"><span>            ij <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>
@@ -818,7 +835,7 @@ fieldname和time用于构建要写入文件的名称。一旦评估了文件名�
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">pure</span> <span style="color:#66d9ef">function</span> tile_ij2n(ij) <span style="color:#66d9ef">result</span>(n)
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">integer</span>(int32), <span style="color:#66d9ef">intent</span>(in) <span style="color:#66d9ef">::</span> ij(<span style="color:#ae81ff">2</span>)
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">integer</span>(int32) <span style="color:#66d9ef">::</span> n, tiles(<span style="color:#ae81ff">2</span>)
-</span></span><span style="display:flex;"><span>      
+</span></span><span style="display:flex;"><span>    
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (any(ij <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>)) <span style="color:#66d9ef">then</span>
 </span></span><span style="display:flex;"><span>            n <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>
@@ -835,7 +852,7 @@ fieldname和time用于构建要写入文件的名称。一旦评估了文件名�
 </span></span><span style="display:flex;"><span> itile, jtile
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">integer</span>(int32) <span style="color:#66d9ef">::</span> left, right, down, up
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">integer</span>(int32) <span style="color:#66d9ef">::</span> ij_left(<span style="color:#ae81ff">2</span>), ij_right(<span style="color:#ae81ff">2</span>), ij_down(<span style="color:#ae81ff">2</span>), ij_up(<span style="color:#ae81ff">2</span>)
-</span></span><span style="display:flex;"><span>      
+</span></span><span style="display:flex;"><span>    
 </span></span><span style="display:flex;"><span>        tiles <span style="color:#f92672">=</span> num_tiles(num_images())
 </span></span><span style="display:flex;"><span>        tiles_ij <span style="color:#f92672">=</span> tile_n2ij(this_image())
 </span></span><span style="display:flex;"><span>        itile <span style="color:#f92672">=</span> tiles_ij(<span style="color:#ae81ff">1</span>)
@@ -844,7 +861,7 @@ fieldname和time用于构建要写入文件的名称。一旦评估了文件名�
 </span></span><span style="display:flex;"><span>        ij_right <span style="color:#f92672">=</span> [itile <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>, jtile]
 </span></span><span style="display:flex;"><span>        ij_down <span style="color:#f92672">=</span> [itile, jtile <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>]
 </span></span><span style="display:flex;"><span>        ij_up <span style="color:#f92672">=</span> [itile, jtile <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>]
-</span></span><span style="display:flex;"><span>      
+</span></span><span style="display:flex;"><span>    
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (periodic) <span style="color:#66d9ef">then</span>
 </span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (ij_left(<span style="color:#ae81ff">1</span>) <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">1</span>) ij_left(<span style="color:#ae81ff">1</span>) <span style="color:#f92672">=</span> tiles(<span style="color:#ae81ff">1</span>)
 </span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (ij_right(<span style="color:#ae81ff">1</span>) <span style="color:#f92672">&gt;</span> tiles(<span style="color:#ae81ff">1</span>)) ij_right(<span style="color:#ae81ff">1</span>) <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
@@ -856,12 +873,12 @@ fieldname和time用于构建要写入文件的名称。一旦评估了文件名�
 </span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (ij_down(<span style="color:#ae81ff">2</span>) <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">1</span>) ij_down <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
 </span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (ij_up(<span style="color:#ae81ff">2</span>) <span style="color:#f92672">&gt;</span> tiles(<span style="color:#ae81ff">2</span>)) ij_up <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">end</span> <span style="color:#66d9ef">if</span>
-</span></span><span style="display:flex;"><span>      
+</span></span><span style="display:flex;"><span>    
 </span></span><span style="display:flex;"><span>        left <span style="color:#f92672">=</span> tile_ij2n(ij_left)
 </span></span><span style="display:flex;"><span>        right <span style="color:#f92672">=</span> tile_ij2n(ij_right)
 </span></span><span style="display:flex;"><span>        down <span style="color:#f92672">=</span> tile_ij2n(ij_down)
 </span></span><span style="display:flex;"><span>        up <span style="color:#f92672">=</span> tile_ij2n(ij_up)
-</span></span><span style="display:flex;"><span>      
+</span></span><span style="display:flex;"><span>    
 </span></span><span style="display:flex;"><span>        neighbors <span style="color:#f92672">=</span> [left, right, down, up]
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span> <span style="color:#66d9ef">function</span> tile_neighbors_2d
 </span></span><span style="display:flex;"><span>
@@ -925,14 +942,33 @@ fieldname和time用于构建要写入文件的名称。一旦评估了文件名�
 
 
 <nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/books/modernfortran/modernfortran_3/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;Previous</span>
+			<p class="pager__title">第二部分 Fortran的核心要素</p>
+		</a>
+	</div>
 	<div class="pager__item pager__item--next">
-		<a class="pager__link" href="/books/modernfortran/moderfortran-0/" rel="next">
+		<a class="pager__link" href="/books/modernfortran/readme/" rel="next">
 			<span class="pager__subtitle">Next&thinsp;»</span>
-			<p class="pager__title">《现代Fortran——创建高效并行程序》：前言</p>
+			<p class="pager__title">《现代Fortran——创建高效并行程序》：目录</p>
 		</a>
 	</div>
 </nav>
-
+<div id="giscus" class="comment"></div>
+      <script src="https://giscus.app/client.js"
+              data-repo="PeakHan618/Giscus"
+              data-repo-id="R_kgDOLxA-eA"
+              data-category="Announcements"
+              data-category-id="DIC_kwDOLxA-eM4Ce06R"
+              data-mapping="pathname"
+              data-reactions-enabled="1"
+              data-emit-metadata="0"
+              data-input-position="bottom"
+              data-theme="light"
+              data-lang="zh-CN"
+              crossOrigin="anonymous"
+              async></script>
 
 			</div>
 			
