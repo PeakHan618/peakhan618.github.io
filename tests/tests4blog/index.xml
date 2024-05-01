@@ -2,17 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tests for Blog on Linguage</title>
-    <link>https://peakhan618.github.io/tests/tests4blog/</link>
+    <link>http://localhost:1313/tests/tests4blog/</link>
     <description>Recent content in Tests for Blog on Linguage</description>
     <generator>Hugo 0.125.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://peakhan618.github.io/tests/tests4blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Apr 2024 20:27:11 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tests/tests4blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>基本功能：基于Markdown</title>
+      <link>http://localhost:1313/tests/tests4blog/test1_markdown/</link>
+      <pubDate>Thu, 18 Apr 2024 20:27:11 +0800</pubDate>
+      <guid>http://localhost:1313/tests/tests4blog/test1_markdown/</guid>
+      <description>&lt;p&gt;测试Markdown的各项基本功能。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>基本功能：链接</title>
+      <link>http://localhost:1313/tests/tests4blog/test3_link/</link>
+      <pubDate>Thu, 18 Apr 2024 20:21:25 +0800</pubDate>
+      <guid>http://localhost:1313/tests/tests4blog/test3_link/</guid>
+      <description>中文测试 叫哦赛陈&#xA;blogtest.</description>
+    </item>
     <item>
       <title>基本功能：数学公式</title>
-      <link>https://peakhan618.github.io/tests/tests4blog/test2_math_test/</link>
+      <link>http://localhost:1313/tests/tests4blog/test2_math_test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://peakhan618.github.io/tests/tests4blog/test2_math_test/</guid>
+      <guid>http://localhost:1313/tests/tests4blog/test2_math_test/</guid>
       <description>&lt;p&gt;本文旨在测试博客模板（mainroad）对数学公式输入的支持效果。&lt;/p&gt;</description>
     </item>
   </channel>
