@@ -2,157 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Linguage</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://peakhan618.github.io/tags/</link>
     <description>Recent content in Tags on Linguage</description>
     <generator>Hugo 0.125.0</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 22 Apr 2024 18:08:18 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://peakhan618.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>工程科学</title>
-      <link>http://localhost:1313/tags/%E5%B7%A5%E7%A8%8B%E7%A7%91%E5%AD%A6/</link>
+      <link>https://peakhan618.github.io/tags/%E5%B7%A5%E7%A8%8B%E7%A7%91%E5%AD%A6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/%E5%B7%A5%E7%A8%8B%E7%A7%91%E5%AD%A6/</guid>
+      <guid>https://peakhan618.github.io/tags/%E5%B7%A5%E7%A8%8B%E7%A7%91%E5%AD%A6/</guid>
       <description></description>
     </item>
     <item>
       <title>生活方式</title>
-      <link>http://localhost:1313/tags/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F/</link>
+      <link>https://peakhan618.github.io/tags/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F/</guid>
+      <guid>https://peakhan618.github.io/tags/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F/</guid>
       <description></description>
     </item>
     <item>
       <title>计算机科学</title>
-      <link>http://localhost:1313/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/</link>
+      <link>https://peakhan618.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/</guid>
+      <guid>https://peakhan618.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/</guid>
       <description></description>
     </item>
     <item>
       <title>黑客</title>
-      <link>http://localhost:1313/tags/%E9%BB%91%E5%AE%A2/</link>
+      <link>https://peakhan618.github.io/tags/%E9%BB%91%E5%AE%A2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/%E9%BB%91%E5%AE%A2/</guid>
+      <guid>https://peakhan618.github.io/tags/%E9%BB%91%E5%AE%A2/</guid>
       <description></description>
     </item>
     <item>
       <title>关于学习</title>
-      <link>http://localhost:1313/tags/%E5%85%B3%E4%BA%8E%E5%AD%A6%E4%B9%A0/</link>
+      <link>https://peakhan618.github.io/tags/%E5%85%B3%E4%BA%8E%E5%AD%A6%E4%B9%A0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/%E5%85%B3%E4%BA%8E%E5%AD%A6%E4%B9%A0/</guid>
+      <guid>https://peakhan618.github.io/tags/%E5%85%B3%E4%BA%8E%E5%AD%A6%E4%B9%A0/</guid>
       <description></description>
     </item>
     <item>
       <title>数学</title>
-      <link>http://localhost:1313/tags/%E6%95%B0%E5%AD%A6/</link>
+      <link>https://peakhan618.github.io/tags/%E6%95%B0%E5%AD%A6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/%E6%95%B0%E5%AD%A6/</guid>
+      <guid>https://peakhan618.github.io/tags/%E6%95%B0%E5%AD%A6/</guid>
       <description></description>
     </item>
     <item>
       <title>笔记</title>
-      <link>http://localhost:1313/tags/%E7%AC%94%E8%AE%B0/</link>
+      <link>https://peakhan618.github.io/tags/%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/%E7%AC%94%E8%AE%B0/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Fortran</title>
-      <link>http://localhost:1313/tags/fortran/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/fortran/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>图书</title>
-      <link>http://localhost:1313/tags/%E5%9B%BE%E4%B9%A6/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/%E5%9B%BE%E4%B9%A6/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>测试</title>
-      <link>http://localhost:1313/tags/%E6%B5%8B%E8%AF%95/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/%E6%B5%8B%E8%AF%95/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Installation</title>
-      <link>http://localhost:1313/tags/installation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/installation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Basic Elements</title>
-      <link>http://localhost:1313/tags/basic-elements/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/basic-elements/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>CSS</title>
-      <link>http://localhost:1313/tags/css/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/css/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>HTML</title>
-      <link>http://localhost:1313/tags/html/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/html/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Development</title>
-      <link>http://localhost:1313/tags/development/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/development/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Go</title>
-      <link>http://localhost:1313/tags/go/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/go/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Golang</title>
-      <link>http://localhost:1313/tags/golang/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/golang/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hugo</title>
-      <link>http://localhost:1313/tags/hugo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/hugo/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Templates</title>
-      <link>http://localhost:1313/tags/templates/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/templates/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Themes</title>
-      <link>http://localhost:1313/tags/themes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/themes/</guid>
+      <guid>https://peakhan618.github.io/tags/%E7%AC%94%E8%AE%B0/</guid>
       <description></description>
     </item>
     <item>
       <title>Mathjax</title>
-      <link>http://localhost:1313/tags/mathjax/</link>
+      <link>https://peakhan618.github.io/tags/mathjax/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/mathjax/</guid>
+      <guid>https://peakhan618.github.io/tags/mathjax/</guid>
       <description></description>
     </item>
   </channel>

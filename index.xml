@@ -2,150 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Linguage</title>
-    <link>http://localhost:1313/</link>
+    <link>https://peakhan618.github.io/</link>
     <description>Recent content in Home on Linguage</description>
     <generator>Hugo 0.125.0</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 22 Apr 2024 18:08:18 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://peakhan618.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>评论：《黑客与画家》</title>
-      <link>http://localhost:1313/post/comment_hacker_painter/</link>
+      <link>https://peakhan618.github.io/post/comment_hacker_painter/</link>
       <pubDate>Mon, 22 Apr 2024 18:08:18 +0800</pubDate>
-      <guid>http://localhost:1313/post/comment_hacker_painter/</guid>
+      <guid>https://peakhan618.github.io/post/comment_hacker_painter/</guid>
       <description>&lt;p&gt;《&lt;a href=&#34;https://paulgraham.com/hp.html&#34;&gt;黑客与画家&lt;/a&gt;》是Paul Graham（保罗·格雷厄姆）的一篇博客文章，该文章被收录至其同名的著作中，称得上是计算机领域里影响巨大的一篇文章。&lt;/p&gt;&#xA;&lt;p&gt;保罗·格雷厄姆是知名的硅谷投资人，他创立了投资机构Y-Combinator，该机构孵化出了包括airbnb在内的无数家成功的初创企业。此外，在经营Y-Combinator的过程中，保罗发现并提拔了日后名声大噪的Sam Altman。与其成功的投资人经历相比，保罗的早年经历也挺传奇。他在哈佛拿到了计算机科学的博士学位，但后来又去罗德岛设计学院学习绘画。他在90年代，创建了叫做ViaWeb的互联网应用，并卖给了雅虎，赚得了自己的第一桶金。由此可以看出，《黑客与画家》这样一个主题正是作者个人经历的一个总结提炼。&lt;/p&gt;</description>
     </item>
     <item>
       <title>搬运：Working on my notes</title>
-      <link>http://localhost:1313/books/%E6%96%87%E7%AB%A0%E6%90%AC%E8%BF%90/working_on_my_notes/</link>
+      <link>https://peakhan618.github.io/books/%E6%96%87%E7%AB%A0%E6%90%AC%E8%BF%90/working_on_my_notes/</link>
       <pubDate>Mon, 22 Apr 2024 13:44:41 +0800</pubDate>
-      <guid>http://localhost:1313/books/%E6%96%87%E7%AB%A0%E6%90%AC%E8%BF%90/working_on_my_notes/</guid>
+      <guid>https://peakhan618.github.io/books/%E6%96%87%E7%AB%A0%E6%90%AC%E8%BF%90/working_on_my_notes/</guid>
       <description>&lt;p&gt;While Working on my Notes&lt;/p&gt;&#xA;&lt;p&gt;作者：小平邦彦（Kunihiko Kodaira）&lt;/p&gt;&#xA;&lt;p&gt;时间：1980年8月&lt;/p&gt;</description>
     </item>
     <item>
-      <title>《现代Fortran——创建高效并行应用》：第2章 入门</title>
-      <link>http://localhost:1313/books/modernfortran/modernfortran_2/</link>
-      <pubDate>Sat, 20 Apr 2024 09:52:12 +0800</pubDate>
-      <guid>http://localhost:1313/books/modernfortran/modernfortran_2/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>《现代Fortran——创建高效并行应用》：第1章 介绍 Fortran</title>
-      <link>http://localhost:1313/books/modernfortran/modernfortran-1/</link>
-      <pubDate>Sat, 20 Apr 2024 09:51:12 +0800</pubDate>
-      <guid>http://localhost:1313/books/modernfortran/modernfortran-1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>《现代Fortran——创建高效并行程序》：前言</title>
-      <link>http://localhost:1313/books/modernfortran/moderfortran-0/</link>
-      <pubDate>Sat, 20 Apr 2024 09:50:12 +0800</pubDate>
-      <guid>http://localhost:1313/books/modernfortran/moderfortran-0/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>自然语言</title>
-      <link>http://localhost:1313/drafts/about_natural_language/</link>
-      <pubDate>Fri, 19 Apr 2024 22:14:46 +0800</pubDate>
-      <guid>http://localhost:1313/drafts/about_natural_language/</guid>
-      <description>&lt;p&gt;所有的语言都是人造的，但语言的能力确实天生的。我们能接触的语言类型太多了，比如编程语言、数学语言、设计语言&amp;hellip; 所有语言中，最复杂也最有趣的当然还是自然语言。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>住在GitHub</title>
-      <link>http://localhost:1313/drafts/live_in_github/</link>
-      <pubDate>Fri, 19 Apr 2024 22:06:53 +0800</pubDate>
-      <guid>http://localhost:1313/drafts/live_in_github/</guid>
-      <description>&lt;p&gt;在GitHub中“生活”了三个多月，感觉真是太爽了。&lt;/p&gt;&#xA;&lt;p&gt;当然，在长城之内，深入地接触GitHub并不容易。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>《现代Fortran——创建高效并行程序》：目录</title>
-      <link>http://localhost:1313/books/modernfortran/readme/</link>
-      <pubDate>Fri, 19 Apr 2024 20:50:12 +0800</pubDate>
-      <guid>http://localhost:1313/books/modernfortran/readme/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>《现代Fortran——创建高效并行程序》：附录</title>
-      <link>http://localhost:1313/books/modernfortran/appendix/</link>
-      <pubDate>Fri, 19 Apr 2024 20:50:12 +0800</pubDate>
-      <guid>http://localhost:1313/books/modernfortran/appendix/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>第二部分 Fortran的核心要素</title>
-      <link>http://localhost:1313/books/modernfortran/modernfortran_3/</link>
-      <pubDate>Fri, 19 Apr 2024 20:50:12 +0800</pubDate>
-      <guid>http://localhost:1313/books/modernfortran/modernfortran_3/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>基本功能：基于Markdown</title>
-      <link>http://localhost:1313/tests/tests4blog/test1_markdown/</link>
-      <pubDate>Thu, 18 Apr 2024 20:27:11 +0800</pubDate>
-      <guid>http://localhost:1313/tests/tests4blog/test1_markdown/</guid>
-      <description>&lt;p&gt;测试Markdown的各项基本功能。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>基本功能：链接</title>
-      <link>http://localhost:1313/tests/tests4blog/test3_link/</link>
-      <pubDate>Thu, 18 Apr 2024 20:21:25 +0800</pubDate>
-      <guid>http://localhost:1313/tests/tests4blog/test3_link/</guid>
-      <description>中文测试 叫哦赛陈&#xA;blogtest.</description>
-    </item>
-    <item>
-      <title>关于</title>
-      <link>http://localhost:1313/%E5%85%B3%E4%BA%8E/</link>
-      <pubDate>Tue, 25 Jan 2022 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/%E5%85%B3%E4%BA%8E/</guid>
-      <description>Our website builds with Hugo static site generator and Mainroad theme. This demo allows you to see what Mainroad based website looks like before deciding to go with it. Just keep in mind that the current demo shows the basics, a small part of what the combination of Hugo and Mainroad can do.&#xA;关于作者 Mainroad is a responsive, simple, clean and content-focused Hugo theme based on the MH Magazine lite WordPress theme</description>
-    </item>
-    <item>
-      <title>Customization</title>
-      <link>http://localhost:1313/tests/tutorials/customization/</link>
-      <pubDate>Mon, 24 Jan 2022 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tests/tutorials/customization/</guid>
-      <description>&lt;p&gt;Customization page describes common Mainroad configuration parameters which can be specified via configuration file or&#xA;via Front Matter section. That includes logo section tuning, adding a sidebar with widgets, adjusting highlight color,&#xA;and more.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Frequently asked questions (FAQ)</title>
-      <link>http://localhost:1313/tests/tutorials/faq/</link>
-      <pubDate>Mon, 24 Jan 2022 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tests/tutorials/faq/</guid>
-      <description>&lt;p&gt;Browse this FAQ page to find answers to frequently asked questions that have not been covered elsewhere&#xA;in the documentation.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Getting started</title>
-      <link>http://localhost:1313/tests/tutorials/getting-started/</link>
-      <pubDate>Mon, 24 Jan 2022 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tests/tutorials/getting-started/</guid>
-      <description>&lt;p&gt;Welcome to the Mainroad theme documentation. This quick start guide covers Mainroad theme installation and minimal&#xA;configuration and is intended for intermediate to advanced users. To understand this guide, you need to be familiar&#xA;with the &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; static site generator.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Basic HTML Elements</title>
-      <link>http://localhost:1313/tests/tutorials/basic-elements/</link>
-      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tests/tutorials/basic-elements/</guid>
-      <description>&lt;p&gt;The main purpose of this article is to make sure that all basic HTML Elements are decorated with CSS so as to not miss any possible elements when creating new themes for Hugo.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>http://localhost:1313/tests/tutorials/hugo-template-primer/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tests/tutorials/hugo-template-primer/</guid>
-      <description>&lt;p&gt;Hugo uses the excellent &lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt; &lt;a href=&#34;https://golang.org/pkg/html/template/&#34;&gt;html/template&lt;/a&gt; library for&#xA;its template engine. It is an extremely lightweight engine that provides a very&#xA;small amount of logic. In our experience that it is just the right amount of&#xA;logic to be able to create a good static website. If you have used other&#xA;template systems from different languages or frameworks you will find a lot of&#xA;similarities in Go templates.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>http://localhost:1313/tests/tutorials/getting-started-with-hugo/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tests/tutorials/getting-started-with-hugo/</guid>
-      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.&#xA;Save it somewhere specific as we will be using it in the next step.&#xA;More complete instructions are available at Install Hugo&#xA;Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.&#xA;Follow the following steps:&#xA;Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313 Corresponding pseudo commands:</description>
-    </item>
-    <item>
       <title>基本功能：数学公式</title>
-      <link>http://localhost:1313/tests/tests4blog/test2_math_test/</link>
+      <link>https://peakhan618.github.io/tests/tests4blog/test2_math_test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tests/tests4blog/test2_math_test/</guid>
+      <guid>https://peakhan618.github.io/tests/tests4blog/test2_math_test/</guid>
       <description>&lt;p&gt;本文旨在测试博客模板（mainroad）对数学公式输入的支持效果。&lt;/p&gt;</description>
     </item>
   </channel>
